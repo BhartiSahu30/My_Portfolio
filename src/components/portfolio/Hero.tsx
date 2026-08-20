@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Github, Linkedin, Mail, Download, ArrowRight } from "lucide-react";
+import { Github, Linkedin, Mail, Download, ArrowRight, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LINKS } from "./data";
 
@@ -24,7 +24,7 @@ export function Hero() {
           className="glass mx-auto inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium text-muted-foreground"
         >
           <span className="size-2 rounded-full bg-accent shadow-[0_0_12px_2px_currentColor]" />
-          Open to internships & AI/ML roles
+          OPEN TO WORK • AI/ML Roles
         </motion.p>
 
         <motion.h1
@@ -33,7 +33,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.08 }}
           className="mt-6 text-4xl font-bold sm:text-6xl lg:text-7xl"
         >
-          <span className="text-gradient">Bharti Sahu</span>
+          Hi, I'm <span className="text-gradient">Bharti Sahu</span>
         </motion.h1>
 
         <motion.p
@@ -42,7 +42,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.16 }}
           className="mt-4 text-sm font-medium tracking-wide text-accent sm:text-base"
         >
-          AI/ML Developer &nbsp;|&nbsp; Software Developer &nbsp;|&nbsp; CSE-AI Student
+          AI &amp; Computer Vision Enthusiast &nbsp;|&nbsp; Building Real-Time Systems with YOLOv8 &amp; AWS
         </motion.p>
 
         <motion.p
@@ -51,9 +51,10 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.24 }}
           className="mx-auto mt-6 max-w-2xl text-balance text-base leading-relaxed text-muted-foreground"
         >
-          Final-year Computer Science &amp; Engineering student specializing in Artificial
-          Intelligence, with hands-on experience in Machine Learning, Deep Learning, Computer
-          Vision, Generative AI and full-stack development.
+          Computer Science undergraduate specializing in Artificial Intelligence and Machine
+          Learning. Hands-on experience in developing real-time object detection systems,
+          cloud-based full-stack applications, and scalable data solutions using Python, YOLOv8,
+          OpenCV and AWS.
         </motion.p>
 
         <motion.div
@@ -64,7 +65,7 @@ export function Hero() {
         >
           <Button asChild variant="hero" size="xl" className="w-full sm:w-auto">
             <a href="#projects">
-              View Projects <ArrowRight aria-hidden="true" />
+              View My Projects <ArrowRight aria-hidden="true" />
             </a>
           </Button>
           <Button asChild variant="glass" size="xl" className="w-full sm:w-auto">
@@ -72,6 +73,23 @@ export function Hero() {
               <Download aria-hidden="true" /> Download Resume
             </a>
           </Button>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.38 }}
+          className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-muted-foreground"
+        >
+          <span className="inline-flex items-center gap-2">
+            <MapPin className="size-4 text-accent" aria-hidden="true" /> {LINKS.location}
+          </span>
+          <a href={LINKS.email} className="inline-flex items-center gap-2 hover:text-accent">
+            <Mail className="size-4 text-accent" aria-hidden="true" /> {LINKS.emailText}
+          </a>
+          <a href={LINKS.phoneHref} className="inline-flex items-center gap-2 hover:text-accent">
+            <Phone className="size-4 text-accent" aria-hidden="true" /> {LINKS.phone}
+          </a>
         </motion.div>
 
         <motion.div

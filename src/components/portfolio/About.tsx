@@ -9,16 +9,16 @@ export function About() {
         <Reveal className="lg:col-span-3">
           <div className="glow-card h-full rounded-2xl p-7 sm:p-9">
             <p className="text-base leading-relaxed text-muted-foreground">
-              I'm a Computer Science &amp; Engineering (Artificial Intelligence) student who enjoys
-              turning research-style ideas into working software. My core focus is Machine Learning,
-              Deep Learning and Computer Vision, and I've applied these to detection, classification
-              and remote-sensing problems using PyTorch, TensorFlow, OpenCV and YOLOv8.
+              I'm a Computer Science undergraduate specializing in Artificial Intelligence and
+              Machine Learning at Shri Shankracharya Technical Campus, Bhilai. My focus is computer
+              vision and real-time intelligent systems, built with Python, YOLOv8, OpenCV, PyTorch
+              and Keras.
             </p>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
-              Alongside AI, I build full-stack applications with React, TypeScript, Node.js and
-              Flask, and I've been exploring Generative AI and LLM tooling such as LangChain. What
-              motivates me most is solving real-world problems — civic systems, disaster monitoring
-              and space safety — with AI that actually ships.
+              Alongside AI, I build cloud-based full-stack applications with React, Node.js and
+              AWS (EC2, S3, Lambda), and ship ML dashboards with Streamlit. I'm passionate about
+              solving real-world problems through intelligent systems — from space debris detection
+              to gamified cybersecurity learning.
             </p>
           </div>
         </Reveal>

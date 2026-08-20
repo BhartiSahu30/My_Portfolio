@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { Github, Linkedin, Mail, FileText } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,7 +12,7 @@ const CHANNELS = [
   { label: "Email", value: LINKS.emailText, href: LINKS.email, Icon: Mail },
   { label: "GitHub", value: "View repositories", href: LINKS.github, Icon: Github },
   { label: "LinkedIn", value: "Connect with me", href: LINKS.linkedin, Icon: Linkedin },
-  { label: "Resume", value: "Download PDF", href: LINKS.resume, Icon: FileText },
+  { label: "Phone", value: LINKS.phone, href: LINKS.phoneHref, Icon: Phone },
 ];
 
 export function Contact() {
@@ -31,8 +31,8 @@ export function Contact() {
       <SectionHeading eyebrow="Contact" title="Let's Build Something Intelligent" />
       <Reveal className="mx-auto mb-10 max-w-2xl text-center">
         <p className="text-base text-muted-foreground">
-          I'm open to internship opportunities, software development roles, AI/ML projects and
-          collaboration.
+          I'm actively looking for entry-level AI/ML Engineer, Computer Vision Engineer, or
+          Software Developer roles.
         </p>
       </Reveal>
 
