@@ -1,8 +1,11 @@
 export const LINKS = {
   github: "https://github.com/",
   linkedin: "https://www.linkedin.com/",
-  email: "mailto:bharti.sahu@example.com",
-  emailText: "bharti.sahu@example.com",
+  email: "mailto:bharti.bsahu@gmail.com",
+  emailText: "bharti.bsahu@gmail.com",
+  phone: "+91 73547 96202",
+  phoneHref: "tel:+917354796202",
+  location: "Bhilai, India",
   resume: "#",
 };
 
@@ -11,26 +14,26 @@ export const NAV_ITEMS = [
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
+  { label: "Achievements", href: "#achievements" },
   { label: "Contact", href: "#contact" },
 ];
 
 export const STATS = [
-  { value: "SIH 2025", label: "Finalist" },
-  { value: "4+", label: "AI/ML Projects" },
-  { value: "Multiple", label: "Internships & Trainings" },
-  { value: "CSE-AI", label: "Student" },
+  { value: "Top 5", label: "SIH 2025 All India Finalist" },
+  { value: "3+", label: "AI/ML & Full-Stack Projects" },
+  { value: "8.2", label: "CGPA / 10" },
+  { value: "AWS", label: "EC2 · S3 · Lambda" },
 ];
 
 export const SKILLS: { title: string; items: string[] }[] = [
-  { title: "Programming", items: ["Python", "C++", "Java"] },
-  { title: "Web Development", items: ["HTML", "CSS", "JavaScript", "ReactJS", "Node.js"] },
-  {
-    title: "AI / ML",
-    items: ["Scikit-learn", "PyTorch", "TensorFlow", "Keras", "OpenCV", "YOLOv8", "Ultralytics"],
-  },
-  { title: "Generative AI", items: ["LangChain", "LLMs", "Generative AI"] },
+  { title: "Core Language", items: ["Python"] },
+  { title: "Computer Vision", items: ["YOLOv8", "OpenCV"] },
+  { title: "Deep Learning", items: ["PyTorch", "Keras"] },
+  { title: "Cloud & Deployment", items: ["AWS EC2", "AWS S3", "AWS Lambda"] },
+  { title: "Frontend & Backend", items: ["React", "Node.js"] },
+  { title: "ML Dashboards", items: ["Streamlit"] },
+  { title: "Data Science", items: ["NumPy", "Pandas", "scikit-learn"] },
   { title: "Databases", items: ["MySQL", "MongoDB", "SQLite"] },
-  { title: "Cloud", items: ["AWS", "Google Cloud"] },
 ];
 
 export type Project = {
@@ -43,55 +46,63 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "CleanCity – AI Enabled Smart Municipal Grievance Management System",
+    title: "Ninja Noodles – Cybersecurity Learning Platform",
     description:
-      "An AI-powered municipal grievance management platform that helps citizens report civic issues, automatically analyzes complaints using AI, provides location-based reporting and supports role-based administration.",
-    tech: ["React", "TypeScript", "Flask", "Python", "MySQL", "YOLOv8", "OpenCV", "JWT"],
+      "Gamified cybersecurity learning platform with interactive challenges, badges, and real-time tracking to make security education engaging.",
+    tech: ["React", "Vite", "Zustand", "Framer Motion"],
     demo: "#",
   },
   {
-    title: "Real-Time Space Debris Detection",
+    title: "Real-Time Space Debris Detection System",
     description:
-      "Computer vision system for detecting and identifying space debris using YOLOv8.",
-    tech: ["Python", "YOLOv8", "OpenCV", "PyTorch"],
+      "End-to-end computer vision solution for real-time space debris detection and tracking, with an interactive Streamlit dashboard for monitoring.",
+    tech: ["YOLOv8", "OpenCV", "Streamlit", "AWS"],
     badge: "SIH 2025 Finalist",
-  },
-  {
-    title: "Landslide Detection Using Satellite Imagery",
-    description:
-      "Machine learning and deep learning based system for identifying landslide-affected regions from satellite imagery.",
-    tech: ["Python", "Sentinel-2/Landsat", "NDVI", "NDWI", "Random Forest", "CNN"],
+    demo: "#",
   },
   {
     title: "Virtual Library System",
-    description: "AI-enabled virtual library project developed during AI training.",
-    tech: ["Python", "AI/ML", "Computer Vision"],
+    description:
+      "Full-stack GUI library management system with book search, issue/return workflows, and cloud deployment for scalable book management.",
+    tech: ["Python", "PyQt", "SQLite", "AWS EC2/S3"],
+    demo: "#",
   },
 ];
 
 export const EXPERIENCE = [
   {
-    role: "AI/ML Trainee",
-    org: "Techonet Pvt. Ltd.",
-    detail: "Built an AI-based Virtual Library System.",
+    year: "2025",
+    tag: "AI Trainee",
+    role: "AI Trainee • Techonet Pvt. Ltd., Bhilai",
+    org: "Techonet Pvt. Ltd., Bhilai",
+    points: [
+      "Developed a Virtual Library System using Python & PyQt",
+      "Implemented backend with SQLite/JSON and deployed on AWS (EC2, S3, Lambda)",
+    ],
   },
   {
-    role: "Data Analyst Intern",
-    org: "Thiranex",
-    detail: "Worked with data analytics and related technologies.",
+    year: "2025",
+    tag: "Hackathon",
+    role: "Smart India Hackathon 2025 • Space Debris Detection System",
+    org: "Smart India Hackathon",
+    points: [
+      "Built real-time object detection system using OpenCV + YOLOv8",
+      "Created interactive Streamlit dashboard for visualization & monitoring",
+    ],
   },
-  { role: "AI Intern", org: "CodeAlpha", detail: "Worked on AI/ML projects." },
-  {
-    role: "AI Automation & Generative AI Training",
-    org: "IBM SkillsBuild / BharatCares",
-    detail: "",
-  },
-  { role: "Geoprocessing & Data Analytics Training", org: "IIRS, ISRO", detail: "" },
 ];
 
 export const ACHIEVEMENTS = [
-  { icon: "🏆", text: "SIH 2025 Finalist" },
-  { icon: "🚀", text: "Real-Time Space Debris Detection using YOLOv8" },
-  { icon: "🤖", text: "Multiple AI/ML Projects" },
-  { icon: "☁️", text: "AI, Cloud and Data Analytics Training" },
+  {
+    icon: "🏆",
+    text: "Smart India Hackathon 2025 – Top 5 All India Finalist",
+    detail: "Space Debris Detection Project",
+  },
+  { icon: "🥈", text: "RBI 90 Quiz – State Level Finalist (Top 10 / 90 teams)" },
+  {
+    icon: "🔐",
+    text: "IIT Bhilai Cyber Security Hackathon 2026 Participant",
+    detail: "Digital Identity Analysis Tool",
+  },
+  { icon: "🌍", text: "Prayatna 3.0 – National Hackathon Participant" },
 ];

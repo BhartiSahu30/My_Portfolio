@@ -8,9 +8,9 @@ import { Experience } from "@/components/portfolio/Experience";
 import { Education } from "@/components/portfolio/Education";
 import { Contact } from "@/components/portfolio/Contact";
 
-const TITLE = "Bharti Sahu — AI/ML & Software Developer Portfolio";
+const TITLE = "Bharti Sahu | AI & Computer Vision Engineer";
 const DESCRIPTION =
-  "Portfolio of Bharti Sahu, CSE-AI student and AI/ML developer: computer vision, deep learning, generative AI and full-stack projects.";
+  "Portfolio of Bharti Sahu — AI/ML and Computer Vision engineer building real-time detection systems with YOLOv8, OpenCV, Streamlit and AWS.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -40,7 +40,7 @@ function Index() {
         <Contact />
       </main>
       <footer className="border-t border-[var(--glass-border)] py-8 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Bharti Sahu · Built with React, TypeScript &amp; Tailwind CSS
+        © {new Date().getFullYear()} Bharti Sahu · Built with passion for AI &amp; Computer Vision
       </footer>
     </div>
   );
