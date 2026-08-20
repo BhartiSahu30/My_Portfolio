@@ -14,34 +14,29 @@ export function Education() {
               </span>
               <div>
                 <h3 className="font-display text-base font-semibold sm:text-lg">
-                  B.Tech – Computer Science &amp; Engineering (Artificial Intelligence)
+                  B.Tech Computer Science (Artificial Intelligence)
                 </h3>
                 <p className="mt-1.5 text-sm text-muted-foreground">
-                  Shri Shankaracharya Technical Campus, Bhilai
+                  Shri Shankracharya Technical Campus, Bhilai
                 </p>
               </div>
             </div>
-            <span className="w-fit rounded-full border border-[var(--glass-border)] px-3 py-1 text-xs text-accent">
-              2023 – 2027
-            </span>
+            <div className="shrink-0 sm:text-right">
+              <span className="w-fit rounded-full border border-[var(--glass-border)] px-3 py-1 text-xs text-accent">
+                2023 – 2027
+              </span>
+              <p className="mt-2 text-sm font-medium">CGPA: 8.2 / 10</p>
+            </div>
           </div>
 
           <div className="mt-7 grid gap-4 border-t border-[var(--glass-border)] pt-6 sm:grid-cols-2">
             <div className="rounded-xl bg-secondary/40 p-4">
-              <p className="text-xs uppercase tracking-wider text-muted-foreground">
-                Academic performance
-              </p>
-              <p className="mt-1.5 text-sm">
-                Consistent academic standing across CSE-AI coursework.
-              </p>
+              <p className="text-xs uppercase tracking-wider text-muted-foreground">Class XII</p>
+              <p className="mt-1.5 text-sm">CGBOSE – 81.6% (2022)</p>
             </div>
             <div className="rounded-xl bg-secondary/40 p-4">
-              <p className="text-xs uppercase tracking-wider text-muted-foreground">
-                Core coursework
-              </p>
-              <p className="mt-1.5 text-sm">
-                Machine Learning, Deep Learning, Computer Vision, DSA, DBMS
-              </p>
+              <p className="text-xs uppercase tracking-wider text-muted-foreground">Class X</p>
+              <p className="mt-1.5 text-sm">CGBOSE – 95% (2020)</p>
             </div>
           </div>
         </div>
