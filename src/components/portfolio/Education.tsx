@@ -32,11 +32,11 @@ export function Education() {
           <div className="mt-7 grid gap-4 border-t border-[var(--glass-border)] pt-6 sm:grid-cols-2">
             <div className="rounded-xl bg-secondary/40 p-4">
               <p className="text-xs uppercase tracking-wider text-muted-foreground">Class XII</p>
-              <p className="mt-1.5 text-sm">CGBOSE – 81.6% (2022)</p>
+              <p className="mt-1.5 text-sm">CGBSE – 81.6% (2022)</p>
             </div>
             <div className="rounded-xl bg-secondary/40 p-4">
               <p className="text-xs uppercase tracking-wider text-muted-foreground">Class X</p>
-              <p className="mt-1.5 text-sm">CGBOSE – 95% (2020)</p>
+              <p className="mt-1.5 text-sm">CGBSE – 95% (2020)</p>
             </div>
           </div>
         </div>

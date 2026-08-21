@@ -4,9 +4,8 @@ export const LINKS = {
   email: "mailto:bhartirdsahu@gmail.com",
   emailText: "bhartirdsahu@gmail.com",
   phone: "+91 7354976202",
-  phoneHref: "tel:+917354976202",
   location: "Bhilai, India",
-  resume: "#",
+  resume: "https://drive.google.com/drive/folders/10-11uPE8A9euiDNoXEmXfwmCBygcsElC?usp=sharing",
 };
 
 export const NAV_ITEMS = [
@@ -20,9 +19,9 @@ export const NAV_ITEMS = [
 
 export const STATS = [
   { value: "Top 5", label: "SIH 2025 All India Finalist" },
-  { value: "3+", label: "AI/ML & Full-Stack Projects" },
+  { value: "6+", label: "AI/ML & Data Analytics Projects" },
   { value: "8.2", label: "CGPA / 10" },
-  { value: "3+", label: "Internships & Training" },
+  { value: "5+", label: "Internships & Training" },
 ];
 
 export const SKILLS: { title: string; items: string[] }[] = [
@@ -140,7 +139,8 @@ export const PROJECTS: Project[] = [
       "Weather API",
       "JWT",
     ],
-    github: "https://github.com/BhartiSahu30/AI-Travel-Planning-Agent.git",
+    github:
+      "https://github.com/BhartiSahu30/AI-Travel-Planning-Agent.git",
     demo: "https://ai-travel-planning-a-43am.bolt.host/",
   },
 
@@ -176,7 +176,9 @@ export const PROJECTS: Project[] = [
       "Computer Vision",
     ],
     badge: "SIH 2025 Finalist",
-    github: "https://github.com/BhartiSahu30/SIH_Space_Debris_Mitigation.git",
+    github:
+      "https://github.com/BhartiSahu30/SIH_Space_Debris_Mitigation.git",
+  },
 
   {
     title: "Shopify Sales & Revenue Analysis Dashboard",
@@ -189,7 +191,8 @@ export const PROJECTS: Project[] = [
       "Streamlit",
       "Data Analysis",
     ],
-    github: "https://github.com/BhartiSahu30/Shopify-Sales-and-Revenue-Dashboard.git",
+    github:
+      "https://github.com/BhartiSahu30/Shopify-Sales-and-Revenue-Dashboard.git",
   },
 
   {
@@ -205,7 +208,8 @@ export const PROJECTS: Project[] = [
       "Data Cleaning",
       "EDA",
     ],
-    github: "https://github.com/BhartiSahu30/Smart_Data_Cleaning_Automation.git",
+    github:
+      "https://github.com/BhartiSahu30/Smart_Data_Cleaning_Automation.git",
   },
 
   {
@@ -221,7 +225,8 @@ export const PROJECTS: Project[] = [
       "Streamlit",
       "Machine Learning",
     ],
-    github: "https://github.com/BhartiSahu30/Predictive-Model-to-Forecast-Future-Trends.git",
+    github:
+      "https://github.com/BhartiSahu30/Predictive-Model-to-Forecast-Future-Trends.git",
   },
 
   {
@@ -237,8 +242,6 @@ export const PROJECTS: Project[] = [
       "AWS S3",
       "AWS Lambda",
     ],
-    github: "#",
-    demo: "#",
   },
 ];
 
