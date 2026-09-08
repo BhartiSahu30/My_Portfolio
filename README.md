@@ -1,280 +1,73 @@
-# Bharti Sahu Portfolio
+# Bharti Sahu — AI/ML Portfolio - https://my-portfolio-gilt-mu-27.vercel.app/
 
-Create a modern, premium, responsive personal portfolio website for Bharti Sahu, a CSE-AI student and aspiring AI/ML & Software Developer.
+A premium, responsive single-page portfolio for **Bharti Sahu**, a Computer Science & Engineering (Artificial Intelligence) student and aspiring AI/ML and software developer. The site presents technical skills, selected projects, experience, education, achievements, and contact details in a recruiter-focused experience.
 
-Overall Design
+Built with [Lovable](https://lovable.dev/).
 
-Build a single-page portfolio with a futuristic AI/developer aesthetic.
+## Highlights
 
-Use:
+- Futuristic, accessible dark interface with purple and electric-blue accents
+- Responsive layouts for mobile, tablet, and desktop
+- Smooth scrolling, polished micro-interactions, and Framer Motion animations
+- Glassmorphism project and skill cards with lightweight visual effects
+- Sticky navigation and quick links to GitHub, LinkedIn, email, and resume
+- Project showcase for AI/ML, computer-vision, and full-stack work
+- Vertical experience timeline, education summary, achievements, and contact form
+- Reusable React components with TypeScript and Tailwind CSS
 
-Dark navy/black background
+## Tech Stack
 
-Purple and electric-blue gradient accents
+| Area | Technologies |
+| --- | --- |
+| Framework | React, TypeScript |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| Tooling | Node.js, npm, Lovable |
 
-Glassmorphism cards
+## Featured Projects
 
-Subtle glowing borders
+- **CleanCity** — AI-enabled municipal grievance platform with location-based reporting, role-based administration, and automated complaint analysis. Built with React, TypeScript, Flask, Python, MySQL, YOLOv8, OpenCV, and JWT.
+- **Real-Time Space Debris Detection** — YOLOv8 computer-vision system for detecting and identifying space debris. *SIH 2025 Finalist.*
+- **Landslide Detection Using Satellite Imagery** — ML/DL system for detecting landslide-affected regions from satellite imagery using Sentinel/Landsat data and indices such as NDVI and NDWI.
+- **Virtual Library System** — AI-enabled virtual library project developed during AI training.
 
-Smooth scrolling
+## Getting Started
 
-Modern animations
+### Prerequisites
 
-Minimal particle/grid background
+- Node.js 18 or later
+- npm
 
-Clean professional typography
+### Installation
 
-Fully responsive design for desktop, tablet and mobile
-
-The website should look professional enough for internships and campus placements, not like a generic template.
-
-Hero Section
-
-Display:
-
-Bharti Sahu
-
-AI/ML Developer | Software Developer | CSE-AI Student
-
-Short description:
-
-"Final-year Computer Science & Engineering student specializing in Artificial Intelligence, with hands-on experience in Machine Learning, Deep Learning, Computer Vision, Generative AI and full-stack development."
-
-Add two buttons:
-
-View Projects
-Download Resume
-
-Also add GitHub, LinkedIn and Email icons.
-
-About Section
-
-Title: About Me
-
-Write a concise professional introduction highlighting:
-
-CSE-AI background
-
-Machine Learning
-
-Deep Learning
-
-Computer Vision
-
-Generative AI
-
-Software development
-
-Interest in solving real-world problems using AI
-
-Add a small stats section:
-
-SIH 2025 Finalist
-
-AI/ML Projects
-
-Multiple Internships & Trainings
-
-CSE-AI Student
-
-Skills Section
-
-Create attractive categorized skill cards.
-
-Programming
-Python, C++, Java
-
-Web Development
-HTML, CSS, JavaScript, ReactJS, Node.js
-
-AI / ML
-Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, YOLOv8, Ultralytics
-
-Generative AI
-LangChain, LLMs, Generative AI
-
-Databases
-MySQL, MongoDB, SQLite
-
-Cloud
-AWS, Google Cloud
-
-Projects Section
-
-Create large interactive project cards.
-
-Project 1:
-CleanCity – AI Enabled Smart Municipal Grievance Management System
-
-Description:
-"An AI-powered municipal grievance management platform that helps citizens report civic issues, automatically analyzes complaints using AI, provides location-based reporting and supports role-based administration."
-
-Technologies:
-React, TypeScript, Flask, Python, MySQL, YOLOv8, OpenCV, JWT
-
-Project 2:
-Real-Time Space Debris Detection
-
-Description:
-"Computer vision system for detecting and identifying space debris using YOLOv8."
-
-Technologies:
-Python, YOLOv8, OpenCV, PyTorch
-
-Add badge:
-SIH 2025 Finalist
-
-Project 3:
-Landslide Detection Using Satellite Imagery
-
-Description:
-"Machine learning and deep learning based system for identifying landslide-affected regions from satellite imagery."
-
-Technologies:
-Python, Sentinel-2/Landsat, NDVI, NDWI, Random Forest, CNN
-
-Project 4:
-Virtual Library System
-
-Description:
-"AI-enabled virtual library project developed during AI training."
-
-Technologies:
-Python, AI/ML, Computer Vision
-
-Each project card should have:
-
-Project title
-
-Description
-
-Technology badges
-
-GitHub button
-
-Live Demo button where applicable
-
-Experience Section
-
-Create a clean vertical timeline.
-
-Include:
-
-AI/ML Trainee – Techonet Pvt. Ltd.
-Built an AI-based Virtual Library System.
-
-Data Analyst Intern – Thiranex
-Worked with data analytics and related technologies.
-
-AI Intern – CodeAlpha
-Worked on AI/ML projects.
-
-AI Automation & Generative AI Training – IBM SkillsBuild / BharatCares
-
-Geoprocessing & Data Analytics Training – IIRS, ISRO
-
-Achievements Section
-
-Highlight:
-
-🏆 SIH 2025 Finalist
-🚀 Real-Time Space Debris Detection using YOLOv8
-🤖 Multiple AI/ML Projects
-☁️ AI, Cloud and Data Analytics Training
-
-Education Section
-
-B.Tech – Computer Science & Engineering (Artificial Intelligence)
-
-Shri Shankaracharya Technical Campus, Bhilai
-
-2023 – 2027
-
-Add academic performance in a clean card.
-
-Contact Section
-
-Title:
-
-Let's Build Something Intelligent
-
-Text:
-
-"I'm open to internship opportunities, software development roles, AI/ML projects and collaboration."
-
-Show:
-
-Email
-
-GitHub
-
-LinkedIn
-
-Resume
-
-Add a simple contact form with:
-Name
-Email
-Message
-Send Message button
-
-Navigation
-
-Sticky navbar:
-
-Bharti Sahu | About | Skills | Projects | Experience | Contact
-
-Add a Download Resume button in the navbar.
-
-Important Requirements
-
-Use React + TypeScript.
-
-Use Tailwind CSS.
-
-Make the website completely responsive.
-
-Add smooth scrolling.
-
-Add subtle Framer Motion animations.
-
-Use reusable components.
-
-Keep the code clean and organized.
-
-Do NOT create unnecessary pages.
-
-Everything should work on one page.
-
-Do NOT use fake testimonials.
-
-Do NOT invent achievements, companies, projects or statistics.
-
-Use placeholder links for GitHub/LinkedIn/Resume if actual links are not provided.
-
-Make the design visually impressive but fast-loading.
-
-Make accessibility and mobile responsiveness a priority.
-
-The final result should feel like a premium AI engineer/developer portfolio suitable for recruiters, internships and campus placements.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/01f55c15-ce98-4bfd-b3a6-6535539cb07c).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
+```bash
+git clone <repository-url>
 cd <repository-name>
-npm i
+npm install
 npm run dev
 ```
+
+Open the local URL shown in the terminal, typically `http://localhost:5173`.
+
+### Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Customization
+
+Before publishing, replace the placeholder URLs and contact details with Bharti's actual GitHub, LinkedIn, email address, and resume link. Keep all portfolio claims aligned with the latest verified experience, project links, and academic information.
+
+## Project Principles
+
+This portfolio is designed to be fast, accessible, and credible for internships, campus placements, and professional networking. It uses a single-page layout to keep navigation direct and avoids invented metrics, testimonials, or achievements.
+
+## Development with Lovable
+
+Continue editing the project in the [Lovable editor](https://lovable.dev/projects/01f55c15-ce98-4bfd-b3a6-6535539cb07c). Changes made there synchronize with the connected repository.
+
+## License
+
+This project is intended as a personal portfolio. Add a license file if you plan to distribute or reuse it publicly.
